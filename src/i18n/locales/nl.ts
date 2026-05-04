@@ -18,4 +18,11 @@ export default {
   lang: {
     label: 'Taal',
   },
+  notFound: {
+    eyebrow: '404',
+    title: 'Pagina niet gevonden',
+    message: 'De pagina die u zoekt bestaat niet of is verplaatst.',
+    primaryAction: 'Naar het privacybeleid',
+    secondaryAction: 'Gebruiksvoorwaarden bekijken',
+  },
 }

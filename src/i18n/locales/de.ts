@@ -18,4 +18,11 @@ export default {
   lang: {
     label: 'Sprache',
   },
+  notFound: {
+    eyebrow: '404',
+    title: 'Seite nicht gefunden',
+    message: 'Die gesuchte Seite existiert nicht oder wurde verschoben.',
+    primaryAction: 'Zur Datenschutzerklärung',
+    secondaryAction: 'Nutzungsbedingungen ansehen',
+  },
 }

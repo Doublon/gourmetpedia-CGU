@@ -3,6 +3,7 @@ import { LOCALES } from '@/i18n'
 import PrivacyView from '@/views/PrivacyView.vue'
 import TermsView from '@/views/TermsView.vue'
 import DeleteAccountView from '@/views/DeleteAccountView.vue'
+import NotFoundView from '@/views/NotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -18,7 +19,7 @@ const router = createRouter({
       beforeEnter: (to) => {
         const locale = to.params.locale as string
         if (!LOCALES.includes(locale as (typeof LOCALES)[number])) {
-          return '/en/privacy'
+          return '/en/not-found'
         }
       },
       children: [
@@ -26,9 +27,11 @@ const router = createRouter({
         { path: 'privacy', component: PrivacyView },
         { path: 'terms', component: TermsView },
         { path: 'delete-account', component: DeleteAccountView },
+        { path: 'not-found', component: NotFoundView },
+        { path: ':pathMatch(.*)*', component: NotFoundView },
       ],
     },
-    { path: '/:pathMatch(.*)*', redirect: '/en/privacy' },
+    { path: '/:pathMatch(.*)*', redirect: '/en/not-found' },
   ],
 })
 

@@ -18,4 +18,11 @@ export default {
   lang: {
     label: 'Langue',
   },
+  notFound: {
+    eyebrow: '404',
+    title: 'Page introuvable',
+    message: "La page que vous cherchez n'existe pas ou a été déplacée.",
+    primaryAction: 'Voir la confidentialité',
+    secondaryAction: "Voir les conditions d'utilisation",
+  },
 }
