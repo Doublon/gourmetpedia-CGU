@@ -25,4 +25,23 @@ export default {
     primaryAction: 'Voir la confidentialité',
     secondaryAction: "Voir les conditions d'utilisation",
   },
+  seo: {
+    privacy: {
+      title: 'Politique de confidentialité — Gourmetpedia',
+      description: 'Comment Gourmetpedia collecte, utilise et protège vos données.',
+    },
+    terms: {
+      title: "Conditions d'utilisation — Gourmetpedia",
+      description: "Conditions d'utilisation et de vente de l'application Gourmetpedia.",
+    },
+    deleteAccount: {
+      title: 'Supprimer mon compte — Gourmetpedia',
+      description:
+        "Comment supprimer votre compte Gourmetpedia et ce qu'il advient de vos données.",
+    },
+    notFound: {
+      title: 'Page introuvable — Gourmetpedia',
+      description: "La page que vous cherchez n'existe pas.",
+    },
+  },
 }

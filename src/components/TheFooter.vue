@@ -14,20 +14,19 @@ const { theme } = useTheme()
 
 const locale = computed(() => route.params.locale as string)
 const formattedDate = useFormattedDate(LAST_UPDATED_ISO)
+const logoSrc = computed(
+  () =>
+    `${import.meta.env.BASE_URL}logos/${
+      theme.value === 'dark' ? 'splash_dark_transparent.png' : 'splash_light_transparent.png'
+    }`,
+)
 </script>
 
 <template>
   <footer class="footer">
     <div class="container footer__inner">
       <router-link :to="`/${locale}/privacy`" class="footer__logo">
-        <img
-          :src="
-            theme === 'dark'
-              ? '/logos/splash_dark_transparent.png'
-              : '/logos/splash_light_transparent.png'
-          "
-          alt="Gourmetpedia"
-        />
+        <img :src="logoSrc" alt="Gourmetpedia" />
       </router-link>
 
       <nav class="footer__nav">

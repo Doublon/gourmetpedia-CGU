@@ -25,4 +25,22 @@ export default {
     primaryAction: 'Vai alla privacy',
     secondaryAction: 'Vedi termini di utilizzo',
   },
+  seo: {
+    privacy: {
+      title: 'Informativa sulla Privacy — Gourmetpedia',
+      description: 'Come Gourmetpedia raccoglie, utilizza e protegge i Suoi dati.',
+    },
+    terms: {
+      title: 'Termini di Utilizzo — Gourmetpedia',
+      description: "Termini di utilizzo e vendita dell'app Gourmetpedia.",
+    },
+    deleteAccount: {
+      title: 'Elimina Account — Gourmetpedia',
+      description: 'Come eliminare il Suo account Gourmetpedia e cosa succede ai Suoi dati.',
+    },
+    notFound: {
+      title: 'Pagina non trovata — Gourmetpedia',
+      description: 'La pagina che cerchi non esiste.',
+    },
+  },
 }

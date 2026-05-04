@@ -12,6 +12,12 @@ const { theme, toggle: toggleTheme } = useTheme()
 
 const menuOpen = ref(false)
 const locale = computed(() => route.params.locale as string)
+const logoSrc = computed(
+  () =>
+    `${import.meta.env.BASE_URL}logos/${
+      theme.value === 'dark' ? 'banner_dark.png' : 'banner_light.png'
+    }`,
+)
 
 function onLocaleChange(event: Event) {
   const newLocale = (event.target as HTMLSelectElement).value
@@ -30,7 +36,7 @@ function closeMenu() {
     <div class="container navbar__inner">
       <router-link :to="`/${locale}/privacy`" class="navbar__logo" @click="closeMenu">
         <img
-          :src="theme === 'dark' ? '/logos/banner_dark.png' : '/logos/banner_light.png'"
+          :src="logoSrc"
           alt="Gourmetpedia"
         />
       </router-link>

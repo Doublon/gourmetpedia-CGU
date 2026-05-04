@@ -3,9 +3,12 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { LOCALES, type Locale } from '@/i18n'
+import { useSeo } from '@/composables/useSeo'
 
 const route = useRoute()
 const { t } = useI18n()
+
+useSeo('notFound')
 
 const locale = computed<Locale>(() => {
   const routeLocale = route.params.locale
