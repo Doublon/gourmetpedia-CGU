@@ -21,7 +21,21 @@ watch(
 </script>
 
 <template>
-  <NavBar />
-  <RouterView />
-  <TheFooter />
+  <div class="app-shell">
+    <NavBar />
+    <RouterView class="app-shell__main" />
+    <TheFooter />
+  </div>
 </template>
+
+<style scoped>
+.app-shell {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-shell__main {
+  flex: 1;
+}
+</style>

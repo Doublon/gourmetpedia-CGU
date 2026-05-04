@@ -6,6 +6,7 @@ import { useTheme } from '@/composables/useTheme'
 import { useFormattedDate } from '@/composables/useFormattedDate'
 
 const LAST_UPDATED_ISO = '2026-05-03'
+const CONTACT_EMAIL = 'support@gourmetpedia.com'
 
 const route = useRoute()
 const { t } = useI18n()
@@ -43,8 +44,8 @@ const formattedDate = useFormattedDate(LAST_UPDATED_ISO)
 
       <div class="footer__meta">
         <span>{{ t('footer.operator') }}</span>
-        <a :href="`mailto:${t('footer.contact')}`" class="footer__link">
-          {{ t('footer.contact') }}
+        <a :href="`mailto:${CONTACT_EMAIL}`" class="footer__link">
+          {{ CONTACT_EMAIL }}
         </a>
         <span>{{ t('page.updatedPrefix') }} {{ formattedDate }}</span>
       </div>
@@ -54,9 +55,9 @@ const formattedDate = useFormattedDate(LAST_UPDATED_ISO)
 
 <style scoped>
 .footer {
-  background-color: var(--color-surface);
+  background-color: var(--color-surface-alt);
   border-top: 1px solid var(--color-border);
-  margin-top: auto;
+  margin-top: 3rem;
   transition:
     background-color 0.2s ease,
     border-color 0.2s ease;
@@ -73,7 +74,7 @@ const formattedDate = useFormattedDate(LAST_UPDATED_ISO)
 }
 
 .footer__logo img {
-  height: 36px;
+  height: 40px;
   width: auto;
   opacity: 0.85;
 }

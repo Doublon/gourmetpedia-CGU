@@ -30,11 +30,7 @@ function closeMenu() {
     <div class="container navbar__inner">
       <router-link :to="`/${locale}/privacy`" class="navbar__logo" @click="closeMenu">
         <img
-          :src="
-            theme === 'dark'
-              ? '/logos/splash_dark_transparent.png'
-              : '/logos/splash_light_transparent.png'
-          "
+          :src="theme === 'dark' ? '/logos/banner_dark.png' : '/logos/banner_light.png'"
           alt="Gourmetpedia"
         />
       </router-link>
@@ -146,7 +142,7 @@ function closeMenu() {
 }
 
 .navbar__inner {
-  height: 72px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -154,7 +150,7 @@ function closeMenu() {
 }
 
 .navbar__logo img {
-  height: 44px;
+  height: 56px;
   width: auto;
 }
 
@@ -173,7 +169,7 @@ function closeMenu() {
   flex-direction: column;
   gap: 0.25rem;
   position: absolute;
-  top: 72px;
+  top: 80px;
   left: 0;
   right: 0;
   background-color: var(--color-surface);
@@ -251,11 +247,11 @@ function closeMenu() {
 
 @media (min-width: 768px) {
   .navbar__inner {
-    height: 80px;
+    height: 88px;
   }
 
   .navbar__logo img {
-    height: 52px;
+    height: 64px;
   }
 
   .navbar__burger {
