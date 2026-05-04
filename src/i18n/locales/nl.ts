@@ -7,7 +7,6 @@ export default {
   footer: {
     operator: 'Beheerder: Quentin Tusset, Luik, België',
     contact: 'support@gourmetpedia.com',
-    updated: 'Laatst bijgewerkt: 3 mei 2026',
   },
   theme: {
     toggle: 'Thema wisselen',

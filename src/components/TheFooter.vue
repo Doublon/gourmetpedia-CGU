@@ -3,12 +3,16 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { useTheme } from '@/composables/useTheme'
+import { useFormattedDate } from '@/composables/useFormattedDate'
+
+const LAST_UPDATED_ISO = '2026-05-03'
 
 const route = useRoute()
 const { t } = useI18n()
 const { theme } = useTheme()
 
 const locale = computed(() => route.params.locale as string)
+const formattedDate = useFormattedDate(LAST_UPDATED_ISO)
 </script>
 
 <template>
@@ -42,7 +46,7 @@ const locale = computed(() => route.params.locale as string)
         <a :href="`mailto:${t('footer.contact')}`" class="footer__link">
           {{ t('footer.contact') }}
         </a>
-        <span>{{ t('footer.updated') }}</span>
+        <span>{{ t('page.updatedPrefix') }} {{ formattedDate }}</span>
       </div>
     </div>
   </footer>

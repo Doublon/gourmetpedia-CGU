@@ -7,7 +7,6 @@ export default {
   footer: {
     operator: 'Operatore: Quentin Tusset, Liegi, Belgio',
     contact: 'support@gourmetpedia.com',
-    updated: 'Ultimo aggiornamento: 3 maggio 2026',
   },
   theme: {
     toggle: 'Cambia tema',

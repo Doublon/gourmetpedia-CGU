@@ -1,31 +1,13 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import LegalPage from '@/components/LegalPage.vue'
+import { getContent } from '@/content'
 
-const { t } = useI18n()
+const { locale } = useI18n()
+const content = computed(() => getContent(locale.value, 'privacy'))
 </script>
 
 <template>
-  <main class="page">
-    <div class="container page__content">
-      <h1>{{ t('nav.privacy') }}</h1>
-      <p class="page__placeholder">Content coming in step 2.</p>
-    </div>
-  </main>
+  <LegalPage :content="content" />
 </template>
-
-<style scoped>
-.page {
-  flex: 1;
-  padding: 2.5rem 0 4rem;
-}
-
-.page__content {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
-.page__placeholder {
-  color: var(--color-text-muted);
-}
-</style>
