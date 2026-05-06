@@ -5,8 +5,8 @@ import { useI18n } from 'vue-i18n'
 import { useTheme } from '@/composables/useTheme'
 import { useFormattedDate } from '@/composables/useFormattedDate'
 
-const LAST_UPDATED_ISO = '2026-05-03'
-const CONTACT_EMAIL = 'support@gourmetpedia.com'
+const LAST_UPDATED_ISO = '2026-05-06'
+const CONTACT_EMAIL = 'support@getgourmetpedia.com'
 
 const route = useRoute()
 const { t } = useI18n()

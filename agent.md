@@ -65,4 +65,4 @@ Located in `public/logos/`. Original source: `/Users/qtu/Documents/Gourmetpedia/
 
 ## Operator
 
-Quentin Tusset — Liege, Belgium — support@gourmetpedia.com
+Quentin Tusset — Liege, Belgium — support@getgourmetpedia.com

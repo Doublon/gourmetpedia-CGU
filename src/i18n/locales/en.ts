@@ -6,7 +6,7 @@ export default {
   },
   footer: {
     operator: 'Operator: Quentin Tusset, Liege, Belgium',
-    contact: 'support@gourmetpedia.com',
+    contact: 'support@getgourmetpedia.com',
   },
   page: {
     updatedPrefix: 'Last updated:',

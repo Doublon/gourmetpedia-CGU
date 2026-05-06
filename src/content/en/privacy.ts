@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const privacy: PageContent = {
   title: 'Privacy Policy',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -25,7 +25,7 @@ const privacy: PageContent = {
         { kind: 'p', html: 'The App is operated by:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Liege, Belgium<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Liege, Belgium<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },
@@ -277,7 +277,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'To exercise your rights, contact us at: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>. We may need to verify your identity before responding to your request.',
+          html: 'To exercise your rights, contact us at: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>. We may need to verify your identity before responding to your request.',
         },
       ],
     },
@@ -301,7 +301,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'We do not knowingly collect personal data from children without appropriate consent where required by law. If you believe that a child has provided personal data without appropriate consent, please contact us at <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'We do not knowingly collect personal data from children without appropriate consent where required by law. If you believe that a child has provided personal data without appropriate consent, please contact us at <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -325,7 +325,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liege, Belgium<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liege, Belgium<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

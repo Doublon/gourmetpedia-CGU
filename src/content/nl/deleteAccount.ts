@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const deleteAccount: PageContent = {
   title: 'Account en gegevens verwijderen',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -32,7 +32,7 @@ const deleteAccount: PageContent = {
       blocks: [
         {
           kind: 'p',
-          html: 'Indien u geen toegang heeft tot de App, kunt u verwijdering van uw account en gegevens aanvragen door contact met ons op te nemen via <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'Indien u geen toegang heeft tot de App, kunt u verwijdering van uw account en gegevens aanvragen door contact met ons op te nemen via <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
         {
           kind: 'p',
@@ -139,7 +139,7 @@ const deleteAccount: PageContent = {
         },
         {
           kind: 'p',
-          html: '<a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
         {
           kind: 'p',

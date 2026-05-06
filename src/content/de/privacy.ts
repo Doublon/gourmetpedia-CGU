@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const privacy: PageContent = {
   title: 'Datenschutzerklärung',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -25,7 +25,7 @@ const privacy: PageContent = {
         { kind: 'p', html: 'Die App wird betrieben von:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Lüttich, Belgien<br>E-Mail: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Lüttich, Belgien<br>E-Mail: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },
@@ -277,7 +277,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Um Ihre Rechte auszuüben, kontaktieren Sie uns unter: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>. Wir müssen möglicherweise Ihre Identität überprüfen, bevor wir auf Ihre Anfrage antworten.',
+          html: 'Um Ihre Rechte auszuüben, kontaktieren Sie uns unter: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>. Wir müssen möglicherweise Ihre Identität überprüfen, bevor wir auf Ihre Anfrage antworten.',
         },
       ],
     },
@@ -301,7 +301,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Wir erheben wissentlich keine personenbezogenen Daten von Kindern ohne die gegebenenfalls gesetzlich erforderliche Einwilligung. Wenn Sie der Meinung sind, dass ein Kind ohne entsprechende Einwilligung personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'Wir erheben wissentlich keine personenbezogenen Daten von Kindern ohne die gegebenenfalls gesetzlich erforderliche Einwilligung. Wenn Sie der Meinung sind, dass ein Kind ohne entsprechende Einwilligung personenbezogene Daten bereitgestellt hat, kontaktieren Sie uns bitte unter <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -325,7 +325,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Lüttich, Belgien<br>E-Mail: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Lüttich, Belgien<br>E-Mail: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

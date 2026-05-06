@@ -6,7 +6,7 @@ export default {
   },
   footer: {
     operator: 'Betreiber: Quentin Tusset, Lüttich, Belgien',
-    contact: 'support@gourmetpedia.com',
+    contact: 'support@getgourmetpedia.com',
   },
   page: {
     updatedPrefix: 'Zuletzt aktualisiert:',

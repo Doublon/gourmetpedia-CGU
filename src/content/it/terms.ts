@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const terms: PageContent = {
   title: 'Termini di Utilizzo e di Vendita',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -35,11 +35,11 @@ const terms: PageContent = {
         { kind: 'p', html: 'L\'App è gestita da:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Liegi, Belgio<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Liegi, Belgio<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
         {
           kind: 'p',
-          html: 'In caso di domande sui presenti Termini, sul Suo account o sul Suo abbonamento, può contattarci all\'indirizzo <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'In caso di domande sui presenti Termini, sul Suo account o sul Suo abbonamento, può contattarci all\'indirizzo <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -159,7 +159,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Se ritiene che vi sia stato un errore di fatturazione, contatti Apple o Google tramite il canale di assistenza della relativa piattaforma. Può inoltre contattarci all\'indirizzo <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>, ma gli acquisti effettuati tramite la piattaforma restano soggetti alla procedura di rimborso della piattaforma stessa.',
+          html: 'Se ritiene che vi sia stato un errore di fatturazione, contatti Apple o Google tramite il canale di assistenza della relativa piattaforma. Può inoltre contattarci all\'indirizzo <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>, ma gli acquisti effettuati tramite la piattaforma restano soggetti alla procedura di rimborso della piattaforma stessa.',
         },
       ],
     },
@@ -422,7 +422,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liegi, Belgio<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liegi, Belgio<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

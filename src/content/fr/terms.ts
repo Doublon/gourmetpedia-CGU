@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const terms: PageContent = {
   title: 'Conditions d\'utilisation et de vente',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -35,11 +35,11 @@ const terms: PageContent = {
         { kind: 'p', html: 'L\'Application est exploitée par&nbsp;:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Liège, Belgique<br>E-mail&nbsp;: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Liège, Belgique<br>E-mail&nbsp;: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
         {
           kind: 'p',
-          html: 'Si vous avez des questions concernant les présentes Conditions, votre compte ou votre abonnement, vous pouvez nous contacter à <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'Si vous avez des questions concernant les présentes Conditions, votre compte ou votre abonnement, vous pouvez nous contacter à <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -159,7 +159,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Si vous estimez qu\'il y a eu une erreur de facturation, contactez Apple ou Google via le canal de support de la plateforme concernée. Vous pouvez également nous contacter à <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>, mais les achats effectués sur les plateformes restent soumis au processus de remboursement de la plateforme.',
+          html: 'Si vous estimez qu\'il y a eu une erreur de facturation, contactez Apple ou Google via le canal de support de la plateforme concernée. Vous pouvez également nous contacter à <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>, mais les achats effectués sur les plateformes restent soumis au processus de remboursement de la plateforme.',
         },
       ],
     },
@@ -422,7 +422,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liège, Belgique<br>E-mail&nbsp;: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liège, Belgique<br>E-mail&nbsp;: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

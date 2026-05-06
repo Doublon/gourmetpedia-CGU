@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const terms: PageContent = {
   title: 'Terms of Use and Sale',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -35,11 +35,11 @@ const terms: PageContent = {
         { kind: 'p', html: 'The App is operated by:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Liege, Belgium<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Liege, Belgium<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
         {
           kind: 'p',
-          html: 'If you have any questions about these Terms, your account, or your subscription, you can contact us at <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'If you have any questions about these Terms, your account, or your subscription, you can contact us at <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -159,7 +159,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: 'If you believe there has been a billing error, contact Apple or Google through the relevant platform support channel. You may also contact us at <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>, but platform purchases remain subject to the platform refund process.',
+          html: 'If you believe there has been a billing error, contact Apple or Google through the relevant platform support channel. You may also contact us at <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>, but platform purchases remain subject to the platform refund process.',
         },
       ],
     },
@@ -422,7 +422,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liege, Belgium<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liege, Belgium<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

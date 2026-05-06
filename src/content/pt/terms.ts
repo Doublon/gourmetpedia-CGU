@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const terms: PageContent = {
   title: 'Termos de Utilização e Venda',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -35,11 +35,11 @@ const terms: PageContent = {
         { kind: 'p', html: 'A Aplicação é operada por:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Liège, Bélgica<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Liège, Bélgica<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
         {
           kind: 'p',
-          html: 'Se tiver questões sobre estes Termos, a sua conta ou a sua subscrição, pode contactar-nos através de <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'Se tiver questões sobre estes Termos, a sua conta ou a sua subscrição, pode contactar-nos através de <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -159,7 +159,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Se considera que existiu um erro de faturação, contacte a Apple ou Google através do canal de apoio relevante da plataforma. Pode também contactar-nos através de <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>, mas as compras através da plataforma permanecem sujeitas ao processo de reembolso da plataforma.',
+          html: 'Se considera que existiu um erro de faturação, contacte a Apple ou Google através do canal de apoio relevante da plataforma. Pode também contactar-nos através de <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>, mas as compras através da plataforma permanecem sujeitas ao processo de reembolso da plataforma.',
         },
       ],
     },
@@ -422,7 +422,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liège, Bélgica<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liège, Bélgica<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

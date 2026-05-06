@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const privacy: PageContent = {
   title: 'Privacybeleid',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -25,7 +25,7 @@ const privacy: PageContent = {
         { kind: 'p', html: 'De App wordt geëxploiteerd door:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Luik, België<br>E-mail: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Luik, België<br>E-mail: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },
@@ -277,7 +277,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Om uw rechten uit te oefenen, kunt u contact met ons opnemen via: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>. Wij dienen mogelijk uw identiteit te verifiëren voordat wij op uw verzoek reageren.',
+          html: 'Om uw rechten uit te oefenen, kunt u contact met ons opnemen via: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>. Wij dienen mogelijk uw identiteit te verifiëren voordat wij op uw verzoek reageren.',
         },
       ],
     },
@@ -301,7 +301,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Wij verzamelen niet bewust persoonsgegevens van kinderen zonder passende toestemming wanneer dat wettelijk vereist is. Indien u van mening bent dat een kind persoonsgegevens heeft verstrekt zonder passende toestemming, neem dan contact met ons op via <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'Wij verzamelen niet bewust persoonsgegevens van kinderen zonder passende toestemming wanneer dat wettelijk vereist is. Indien u van mening bent dat een kind persoonsgegevens heeft verstrekt zonder passende toestemming, neem dan contact met ons op via <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -325,7 +325,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Luik, België<br>E-mail: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Luik, België<br>E-mail: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

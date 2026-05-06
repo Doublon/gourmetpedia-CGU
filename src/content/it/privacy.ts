@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const privacy: PageContent = {
   title: 'Informativa sulla Privacy',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -25,7 +25,7 @@ const privacy: PageContent = {
         { kind: 'p', html: 'L\'App è gestita da:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Liegi, Belgio<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Liegi, Belgio<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },
@@ -277,7 +277,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Per esercitare i Suoi diritti, ci contatti all\'indirizzo: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>. Potremmo dover verificare la Sua identità prima di rispondere alla Sua richiesta.',
+          html: 'Per esercitare i Suoi diritti, ci contatti all\'indirizzo: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>. Potremmo dover verificare la Sua identità prima di rispondere alla Sua richiesta.',
         },
       ],
     },
@@ -301,7 +301,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Non raccogliamo consapevolmente dati personali di minori senza il consenso appropriato, ove richiesto dalla legge. Se ritiene che un minore abbia fornito dati personali senza il consenso appropriato, La preghiamo di contattarci all\'indirizzo <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'Non raccogliamo consapevolmente dati personali di minori senza il consenso appropriato, ove richiesto dalla legge. Se ritiene che un minore abbia fornito dati personali senza il consenso appropriato, La preghiamo di contattarci all\'indirizzo <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -325,7 +325,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liegi, Belgio<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liegi, Belgio<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const terms: PageContent = {
   title: 'Nutzungs- und Verkaufsbedingungen',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -35,11 +35,11 @@ const terms: PageContent = {
         { kind: 'p', html: 'Die App wird betrieben von:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Lüttich, Belgien<br>E-Mail: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Lüttich, Belgien<br>E-Mail: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
         {
           kind: 'p',
-          html: 'Bei Fragen zu diesen Bedingungen, Ihrem Konto oder Ihrem Abonnement können Sie uns unter <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a> kontaktieren.',
+          html: 'Bei Fragen zu diesen Bedingungen, Ihrem Konto oder Ihrem Abonnement können Sie uns unter <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a> kontaktieren.',
         },
       ],
     },
@@ -159,7 +159,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Wenn Sie der Meinung sind, dass ein Abrechnungsfehler vorliegt, kontaktieren Sie Apple oder Google über den entsprechenden Plattform-Supportkanal. Sie können uns auch unter <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a> kontaktieren, doch unterliegen Plattformkäufe weiterhin dem Rückerstattungsverfahren der Plattform.',
+          html: 'Wenn Sie der Meinung sind, dass ein Abrechnungsfehler vorliegt, kontaktieren Sie Apple oder Google über den entsprechenden Plattform-Supportkanal. Sie können uns auch unter <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a> kontaktieren, doch unterliegen Plattformkäufe weiterhin dem Rückerstattungsverfahren der Plattform.',
         },
       ],
     },
@@ -422,7 +422,7 @@ const terms: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Lüttich, Belgien<br>E-Mail: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Lüttich, Belgien<br>E-Mail: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },

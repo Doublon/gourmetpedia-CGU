@@ -6,7 +6,7 @@ export default {
   },
   footer: {
     operator: 'Beheerder: Quentin Tusset, Luik, België',
-    contact: 'support@gourmetpedia.com',
+    contact: 'support@getgourmetpedia.com',
   },
   page: {
     updatedPrefix: 'Laatst bijgewerkt:',

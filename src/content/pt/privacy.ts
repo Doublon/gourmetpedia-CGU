@@ -2,7 +2,7 @@ import type { PageContent } from '../types'
 
 const privacy: PageContent = {
   title: 'Política de Privacidade',
-  lastUpdatedISO: '2026-05-03',
+  lastUpdatedISO: '2026-05-06',
   intro: [
     {
       kind: 'p',
@@ -25,7 +25,7 @@ const privacy: PageContent = {
         { kind: 'p', html: 'A Aplicação é operada por:' },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Liège, Bélgica<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Liège, Bélgica<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },
@@ -277,7 +277,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Para exercer os seus direitos, contacte-nos através de: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>. Poderemos ter de verificar a sua identidade antes de responder ao seu pedido.',
+          html: 'Para exercer os seus direitos, contacte-nos através de: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>. Poderemos ter de verificar a sua identidade antes de responder ao seu pedido.',
         },
       ],
     },
@@ -301,7 +301,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: 'Não recolhemos conscientemente dados pessoais de crianças sem o consentimento adequado, sempre que exigido por lei. Se acredita que uma criança forneceu dados pessoais sem o consentimento adequado, contacte-nos através de <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>.',
+          html: 'Não recolhemos conscientemente dados pessoais de crianças sem o consentimento adequado, sempre que exigido por lei. Se acredita que uma criança forneceu dados pessoais sem o consentimento adequado, contacte-nos através de <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>.',
         },
       ],
     },
@@ -325,7 +325,7 @@ const privacy: PageContent = {
         },
         {
           kind: 'p',
-          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liège, Bélgica<br>Email: <a href="mailto:support@gourmetpedia.com">support@gourmetpedia.com</a>',
+          html: '<strong>Quentin Tusset</strong><br>Gourmetpedia<br>Liège, Bélgica<br>Email: <a href="mailto:support@getgourmetpedia.com">support@getgourmetpedia.com</a>',
         },
       ],
     },
