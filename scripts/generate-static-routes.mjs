@@ -3,7 +3,7 @@ import { join } from 'node:path'
 
 const distDir = 'dist'
 const entry = join(distDir, 'index.html')
-const locales = ['en', 'fr', 'de', 'nl', 'pt', 'it']
+const locales = ['en', 'fr', 'de', 'nl', 'pt', 'it', 'es']
 const pages = ['privacy', 'terms', 'delete-account']
 
 const routes = [

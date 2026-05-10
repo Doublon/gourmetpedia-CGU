@@ -17,6 +17,9 @@ import ptDeleteAccount from './pt/deleteAccount'
 import itPrivacy from './it/privacy'
 import itTerms from './it/terms'
 import itDeleteAccount from './it/deleteAccount'
+import esPrivacy from './es/privacy'
+import esTerms from './es/terms'
+import esDeleteAccount from './es/deleteAccount'
 
 const content: Record<string, Partial<Record<PageKey, PageContent>>> = {
   en: { privacy: enPrivacy, terms: enTerms, deleteAccount: enDeleteAccount },
@@ -25,6 +28,7 @@ const content: Record<string, Partial<Record<PageKey, PageContent>>> = {
   nl: { privacy: nlPrivacy, terms: nlTerms, deleteAccount: nlDeleteAccount },
   pt: { privacy: ptPrivacy, terms: ptTerms, deleteAccount: ptDeleteAccount },
   it: { privacy: itPrivacy, terms: itTerms, deleteAccount: itDeleteAccount },
+  es: { privacy: esPrivacy, terms: esTerms, deleteAccount: esDeleteAccount },
 }
 
 export function getContent(locale: string, page: PageKey): PageContent {
